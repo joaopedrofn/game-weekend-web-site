@@ -1,8 +1,12 @@
 .header {
-    background-color: #00cec9;
-    height: 200px;
+    background-color: #44bd32;
     /* padding: 10px; */
-    line-height: 187.5px;
+    padding-top: 30px;
+    clear: both;
+}
+
+.header .top {
+    height: 150px;
 }
 
 
@@ -16,12 +20,33 @@
     text-align: left;
     font-size: 50px;
     font-family: Gugi;
-    color: #dfe6e9;
+    color: #dcdde1;
 }
 
 .header .date{
     text-align: right;
-    color: #dfe6e9;
+    color: #dcdde1;
     font-size: 30px;
+    font-family: Gugi;
+}
+
+
+.header .menu {
+    background-color: #4cd137;
+    height: 50px;
+    line-height: 50px;
+}
+.header .menu div{
+    transition-duration: 700ms;
+}
+
+.header .menu div:hover{
+    background-color: #77df54;
+    transition-duration: 700ms;
+    cursor: pointer;
+}
+
+.header .menu {
+    color: #353b48;
     font-family: Gugi;
 }
