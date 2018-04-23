@@ -1,0 +1,10 @@
+.sponsors .thumbnail {
+    float: left;
+}
+.sponsors .thumbnail img {
+    width: 100px;
+    float: left;
+}
+.sponsors .caption {
+    float: left; 
+}

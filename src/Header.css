@@ -2,7 +2,7 @@
     background-color: #00cec9;
     height: 200px;
     /* padding: 10px; */
-    line-height: 200px;
+    line-height: 187.5px;
 }
 
 
@@ -13,6 +13,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Gugi');
 .header .title {
+    text-align: left;
     font-size: 50px;
     font-family: Gugi;
     color: #dfe6e9;
