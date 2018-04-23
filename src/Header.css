@@ -1,0 +1,26 @@
+.header {
+    background-color: #00cec9;
+    height: 200px;
+    /* padding: 10px; */
+    line-height: 200px;
+}
+
+
+.header .logo {
+    width: 150px;
+
+}
+
+@import url('https://fonts.googleapis.com/css?family=Gugi');
+.header .title {
+    font-size: 50px;
+    font-family: Gugi;
+    color: #dfe6e9;
+}
+
+.header .date{
+    text-align: right;
+    color: #dfe6e9;
+    font-size: 30px;
+    font-family: Gugi;
+}
