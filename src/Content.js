@@ -68,7 +68,7 @@ export default class Content extends Component {
                             </InputGroup></p>
                             <p><InputGroup>
                                 <InputGroup.Addon>
-                                <FontAwesome name="key" />
+                                &nbsp;<FontAwesome name="lock" />&nbsp;
                                 </InputGroup.Addon>
                                 <FormControl type="password" placeholder="Senha" />
                             </InputGroup></p>
