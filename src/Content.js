@@ -49,30 +49,30 @@ export default class Content extends Component {
                         <h2>Inscrição individual</h2>
                         <form>
                             <p><InputGroup>
-                                <InputGroup.Addon>
-                                    &nbsp;<FontAwesome name="user" />&nbsp;
+                                <InputGroup.Addon className="input-group-prepend">
+                                    <FontAwesome name="user" className="input-group-text"/>
                                 </InputGroup.Addon>
                                 <FormControl type="text" placeholder="Nome" />
                             </InputGroup></p>
                             <p><InputGroup>
-                                <InputGroup.Addon>
-                                &nbsp;<FontAwesome name="envelope-open" />
+                                <InputGroup.Addon  className="input-group-prepend">
+                                <FontAwesome name="envelope-open" className="input-group-text" />
                                 </InputGroup.Addon>
                                 <FormControl type="email" placeholder="E-mail" />
                             </InputGroup></p>
                             <p><InputGroup>
-                                <InputGroup.Addon>
-                                <FontAwesome name="id-card" />
+                                <InputGroup.Addon className="input-group-prepend">
+                                <FontAwesome name="id-card" className="input-group-text" />
                                 </InputGroup.Addon>
                                 <FormControl type="text" placeholder="CPF" />
                             </InputGroup></p>
                             <p><InputGroup>
-                                <InputGroup.Addon>
-                                &nbsp;<FontAwesome name="lock" />&nbsp;
+                                <InputGroup.Addon className="input-group-prepend">
+                                <FontAwesome name="lock" className="input-group-text" />
                                 </InputGroup.Addon>
                                 <FormControl type="password" placeholder="Senha" />
                             </InputGroup></p>
-                            <Button bsStyle="success" bsSize="large">Inscrever</Button>
+                            <Button bsStyle="info" bsSize="large">Inscrever</Button>
                         </form>
                         <h2>Inscrição Game Jam (Grupo)</h2>
                         <Button bsStyle="warning" bsSize="large" block>Incrição</Button>

@@ -1,4 +1,4 @@
-.sponsors .thumbnail {
+/* .sponsors .thumbnail {
     float: left;
 }
 .sponsors .thumbnail img {
@@ -7,4 +7,7 @@
 }
 .sponsors .caption {
     float: left; 
+} */
+.card {
+    padding: 10px;
 }

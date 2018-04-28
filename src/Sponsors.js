@@ -5,38 +5,44 @@ import {
     Col,
 } from 'react-bootstrap';
 import './Sponsors.css';
-import logo from './logo.png';
+import unity from './img/unity-logo.png';
+import pepsico from './img/pepsico-logo.png';
+import padaria from './img/padaria-logo.png';
+import cnpq from './img/cnpq-logo.png';
 
 const Sponsors = (props) => {
     return (
         <Row className="sponsors">
-            <Col xs={4} >
-                <Thumbnail className="right-caption">
-                    <img src={logo} className="img-thumbnail"/> 
-                    <div className="caption">
-                        <h4>Patrocinador 1</h4>
+            <div className="card-group">
+                <div className="card h-100 justify-content-center align-items-center">
+                    <img src={unity} className="card-img-top"/>
+                    {/*<div className="card-body">
+                        <h5 className="card-title">Patrocinador 1</h5>
+                        <p className="card-text">Um belo patrocinador!</p>
+    </div>*/}
+                </div>
+                <div className="card h-100 justify-content-center align-items-center">
+                    <img src={pepsico} className="card-img-top align-middle"/>
+                    {/*<div className="card-body">
+                        <h5>Patrocinador 2</h5>
                         <p>Um belo patrocinador!</p>
-                    </div>
-                </Thumbnail>
-            </Col>
-            <Col xs={4} >
-                <Thumbnail className="right-caption">
-                    <img src={logo} className="img-thumbnail"/> 
-                    <div className="caption">
-                        <h4>Patrocinador 2</h4>
+    </div>*/}
+                </div>
+                <div className="card h-100 justify-content-center align-items-center">
+                    <img src={padaria} className="card-img-top"/>
+                    {/*<div className="card-body">
+                        <h5>Patrocinador 3</h5>
                         <p>Um belo patrocinador!</p>
-                    </div>
-                </Thumbnail>
-            </Col>
-            <Col xs={4} >
-                <Thumbnail className="right-caption">
-                    <img src={logo} className="img-thumbnail"/> 
-                    <div className="caption">
-                        <h4>Patrocinador 3</h4>
+    </div>*/}
+                </div>
+                <div className="card h-100 justify-content-center align-items-center">
+                    <img src={cnpq} className="card-img-top"/>
+                    {/*<div className="card-body">
+                        <h5>Patrocinador 4</h5>
                         <p>Um belo patrocinador!</p>
-                    </div>
-                </Thumbnail>
-            </Col>
+    </div>*/}
+                </div>
+            </div>
         </Row>
     );
 }

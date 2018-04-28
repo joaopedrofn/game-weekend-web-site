@@ -1,8 +1,8 @@
 .header {
-    background-color: #44bd32;
+    /* background-color: #44bd32; */
     /* padding: 10px; */
-    padding-top: 30px;
-    clear: both;
+    padding: 0px;
+    width: 100%;
 }
 
 .header .top {
@@ -11,7 +11,7 @@
 
 
 .header .logo {
-    width: 150px;
+    width: 300px;
 
 }
 
@@ -24,9 +24,9 @@
 }
 
 .header .date{
-    text-align: right;
-    color: #dcdde1;
-    font-size: 30px;
+    /* color: #dcdde1; */
+    color: #e84393;
+    font-size: 25px;
     font-family: Gugi;
 }
 
@@ -50,3 +50,26 @@
     color: #353b48;
     font-family: Gugi;
 }
+
+.navbar-toggler {
+    border: 0px;
+    width: 100%;
+    text-align: left;
+}
+.navbar{
+    font-family: 'gugi';
+}
+/* .navbar {
+    border: 0px; 
+    border-radius: 0px;
+    width: 100%;
+    font-family: 'gugi';
+}
+.navbar.center .navbar-collapse {
+    text-align: center;
+}
+
+.navbar.center .navbar-collapse .nav {
+    display:inline-block;
+    float: none;
+} */

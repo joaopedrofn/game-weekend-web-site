@@ -1,13 +1,14 @@
 .footer {
-    background-color: #44bd32;
-    color: #f5f6fa;
+    /* background-color: #44bd32; */
+    /* color: #f5f6fa; */
+    color: #2d3436;
     height: 150px;
     padding: 30px 20px;
     font-size: 18px;
 }
 
 .footer a {
-    color: #dcdde1;
+    color: #636e72;
 }
 
 .footer .fa {
